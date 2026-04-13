@@ -1,0 +1,14 @@
+# Coisas do Python que não devem subir
+__pycache__
+*.py[cod]
+*$py.class
+
+# Visual Studio Code
+.vscode/
+
+# Coisas do Visual Studio que não devem subir (caso tenha projeto de C#)
+.vs/
+[Rr]in/
+[Oo]bj/
+*.slm
+*.csproj
