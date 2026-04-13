@@ -5,7 +5,7 @@ __pycache__
 
 # Visual Studio Code
 .vscode/
-
+.venv
 # Coisas do Visual Studio que não devem subir (caso tenha projeto de C#)
 .vs/
 [Rr]in/
