@@ -13,5 +13,24 @@
 #INTEGRAL".
 
 #print(input("Digite o número desejada (1) Acessórios; (2) Periféricos; (3) Qualquer outra: "))   
-   
-input("Qual objeto do estoque deseja ?")
+
+
+categoria = input("Qual objeto do estoque deseja?")
+quantidade = int(input("Digite a quantidade em estoque: "))
+
+if categoria.lower() == "acessórios":
+    if quantidade < 15:
+        print("REPOSIÇÃO SOLICITADA")
+    else:
+        print("ESTOQUE INTEGRAL")
+elif categoria.lower() == "periférico":
+    if quantidade < 25:
+        print("REPOSIÇÃO SOLICITADA")
+    else:
+        print("ESTOQUE INTEGRAL")
+else:
+    if quantidade < 10:
+        print("REPOSIÇÃO SOLICITADA")
+    else:
+        print("ESTOQUE INTEGRAL")
+
