@@ -14,8 +14,4 @@
 
 #print(input("Digite o número desejada (1) Acessórios; (2) Periféricos; (3) Qualquer outra: "))   
    
-1 = "acessorios"
-2 = "perifericos" 
-3 = "outros"
-
-print(1)
+input("Qual objeto do estoque deseja ?")
