@@ -6,5 +6,16 @@
 # ● OBS: No final, seu algoritmo deve testar (e provar) se a soma dá
 # exatamente 0.3 dentro do print. Deve sair algo como: “Soma correta: True”
 
-import decimal from decimal
+from decimal import Decimal
 
+deposito_1 = Decimal("0.1")
+deposito_2 = Decimal("0.1")
+deposito_3=  Decimal("0.1")
+
+print(f"Soma total: {deposito_1 + deposito_2 + deposito_3}")
+
+if "Soma total" == "0.3":
+    print("Bônus ativado")
+    
+    
+    
