@@ -15,7 +15,7 @@
 #print(input("Digite o número desejada (1) Acessórios; (2) Periféricos; (3) Qualquer outra: "))   
 
 
-categoria = input("Qual objeto do estoque deseja?")
+categoria = input("Qual objeto do estoque deseja?").lower()
 quantidade = int(input("Digite a quantidade em estoque: "))
 
 if categoria.lower() == "acessórios":
